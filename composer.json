@@ -1,0 +1,12 @@
+{
+    "name": "shukurove/es-desktop-api",
+    "description": "Api for ES Desktop",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Egamberdi Shukurov",
+            "email": "shukurove@gmail.com"
+        }
+    ],
+    "require": {}
+}
