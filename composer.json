@@ -2,6 +2,7 @@
     "name": "shukurove/es-desktop-api",
     "description": "Api for ES Desktop",
     "type": "project",
+    "license": "MIT",
     "authors": [
         {
             "name": "Egamberdi Shukurov",
