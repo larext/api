@@ -1,0 +1,13 @@
+{
+    "name": "larext/api",
+    "description": "Laravel API for Panels",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Egamberdi Shukurov",
+            "email": "shukurove@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
