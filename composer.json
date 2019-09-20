@@ -1,6 +1,6 @@
 {
-    "name": "shukurove/es-desktop-api",
-    "description": "Api for ES Desktop",
+    "name": "larext/api",
+    "description": "Laravel API",
     "type": "project",
     "license": "MIT",
     "authors": [
