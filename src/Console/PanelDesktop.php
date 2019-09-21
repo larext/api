@@ -40,6 +40,11 @@ class PanelDesktop extends Command
     public function handle()
     {
         //
+
+        $name = $this->ask("What is your name");
+        echo $name;
+        $name = $this->confirm('What is your name');
+        echo $name;
         $this->info('Start create ExtJS Desktop Admin Panel');
         $this->error('Something went wrong!');
         $this->line('Display this on the screen');
@@ -48,12 +53,12 @@ class PanelDesktop extends Command
         $users = \App\User::all(['name', 'email'])->toArray();
         $this->table($headers, $users);
 
-        $bar = $this->output->createProgressBar(count($users));
+        $bar = $this->output->createProgressBar(100);
 
         $bar->start();
-        foreach ($users as $user) {
+        for($i =0; $i <100; $i++) {
             $bar->advance();
-            //sleep(2);
+            usleep(500000);
         }
 
         $bar->finish();

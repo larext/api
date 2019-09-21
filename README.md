@@ -6,15 +6,13 @@
 <a name="api-introduction"></a>
 ## Introduction
 
-This is test for [link](https://kroxus.net). 
+ 
 
-
-    php artisan 
 
 <a name="api-install"></a>
 #### Install
 
-
+After installing Laravel 
 
 Add this line to Auth/LoginController
 
