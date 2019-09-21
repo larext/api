@@ -3,6 +3,8 @@
 namespace LarExt\API\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use LarExt\API\Model\Products;
 use App\Http\Controllers\Controller;
 
 class ProductsController extends Controller

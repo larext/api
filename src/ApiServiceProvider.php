@@ -15,7 +15,6 @@ class ApiServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->make('\\LarExt\\API\\Controllers\\LoginController');
         $this->app->bind('larextapi', function(){
             return new LarExtApi();
         });

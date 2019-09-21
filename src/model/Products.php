@@ -1,6 +1,6 @@
 <?php
 
-namespace LarExt\API;
+namespace LarExt\API\Model;
 
 use Illuminate\Database\Eloquent\Model;
 
